@@ -1,0 +1,135 @@
+<html>
+<head>
+	<title>Edit Curiculum Vitae</title>
+</head>
+
+<body>
+
+<style>
+	table{
+		font-family;
+		background-color:#CFF;
+	}
+</style>
+<h1 align="center">CURICULUM VITAE</h1>
+<form>
+
+<table align="center">
+	<thead bgcolor="#FF99CC">
+    	<th colspan="3"> DATA PRIBADI </th>
+    </thead>
+    
+    <tbody>
+    	<tr>
+        	<td>NAMA</td>
+            <td><input type="text" name="txtNama"></td>
+			<td rowspan="7"><img src="me.jpg" width="150" height="275" align="bottom"></td>
+        </tr>
+        <tr>
+        	<td>JENIS KELAMIN</td>
+            <td>
+				<input type="radio" name="rbLaki2">Laki-Laki
+				<input type="radio" name="rbPerempuan">Perempuan
+            </td>
+        </tr>
+        <tr>
+        	<td>TEMPAT / TANGGAL LAHIR</td>
+            <td>
+				<input type="text" name="txtTTL">
+			</td>
+        </tr>
+        <tr>
+        	<td>ALAMAT</td>
+            <td>
+				<textarea name="txtAlamat"></textarea>
+			</td>
+        </tr>
+        <tr>
+        	<td>TELEPON</td>
+            <td>
+				<input type="text" name="txtTelp">
+			</td>
+        </tr>
+        <tr>
+        	<td>AGAMA</td>
+            <td>
+				<select name="Agama">
+					<option>Islam</option>
+					<option>Kristen</option>
+					<option>Khatolik</option>
+					<option>Hindu</option>
+					<option>Budha</option>
+                </select>
+			</td>
+        </tr>
+        <tr>
+        	<td>WARGA NEGARA</td>
+            <td>
+				<input type="text" name="txtWN">
+			</td>
+        </tr>
+    </tbody>
+    
+    <thead bgcolor="#FF99CC">
+    	<th colspan="3">RIWAYAT PENDIDIKAN</th>
+    </thead>
+    
+    <tbody>
+    	<ol>
+			<tr>
+				<td>
+					<li>TK</li>
+				</td>
+				<td>
+					<input type="text" name="TK">
+				</td>
+			</tr>
+			
+			<tr>
+				<td>
+					<li>SD</li>
+				</td>
+				<td><input type="text" name="SD"></td>
+			</tr>
+			
+			<tr>
+				<td>
+					<li>SMP</li>
+				</td>
+				<td><input type="text" name="SMP"></td>
+			</tr>
+			<tr>
+				<td>
+					<li>SMA/SMK</li>
+				</td>
+				<td><input type="text" name="SMA"></td>
+			</tr>
+			<tr>
+				<td>
+					<li>Perguruan Tinggu</li>
+				</td>
+				<td><input type="text" name="PT"></td>
+			</tr>
+		</ol>
+    </tbody>
+	
+	<thead bgcolor="#FF99CC">
+		<th colspan="3">PENGALAMAN ORGANISASI</th>
+	</thead>
+	
+	<tbody>
+		<tr>
+			<td colspan="3">
+				<textarea name="organisasi"></textarea>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="3">
+				<input type="submit" name="simpan" value="SIMPAN" align="center">
+			</td>
+		</tr>
+	</tbody>
+</table>
+</form>
+</body>
+</html>
